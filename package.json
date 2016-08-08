@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/azheng72/image-search-freecode/issues"
   },
-  "homepage": "https://github.com/azheng72/image-search-freecode#readme"
+  "homepage": "https://github.com/azheng72/image-search-freecode#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
