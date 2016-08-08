@@ -1,0 +1,19 @@
+{
+  "name": "image-search-freecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azheng72/image-search-freecode.git"
+  },
+  "author": "azheng72",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azheng72/image-search-freecode/issues"
+  },
+  "homepage": "https://github.com/azheng72/image-search-freecode#readme"
+}
