@@ -73,7 +73,7 @@ app.get('/api/latest/imagesearch/',function(req,res){
 });
 
 app.get('/',function(req,res){
-   res.send("Hello");
+   res.send("<h1>Usage:</h1><h2>Search Image: " +req.protocol + "://" +req.get('host')+"/api/imagesearch/&ltYour-Request&gt</h2><h2>Search History: " +req.protocol + "://" +req.get('host')+"/api/latest/imagesearch/</h2>");
    res.end();
 });
 app.listen(process.env.PORT || 8080, function(err){
